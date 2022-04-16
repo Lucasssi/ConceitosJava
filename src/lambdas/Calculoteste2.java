@@ -1,5 +1,7 @@
 package lambdas;
 
+import java.util.function.BinaryOperator;
+
 public class Calculoteste2 {
 	
 	public static void main(String[] args) {
@@ -14,9 +16,7 @@ public class Calculoteste2 {
 		
 		
 		System.out.println(calc.legal());
-		
 		System.out.println(Calculo.muitoLegal());
-		
 		
 	}
 }
